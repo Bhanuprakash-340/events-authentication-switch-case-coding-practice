@@ -1,0 +1,39 @@
+* {
+  margin: 0px;
+}
+
+.app-container {
+  display: flex;
+  width: 100%;
+}
+
+.content-container {
+  width: 65%;
+  background-color: #3a4b63;
+  min-height: 100vh;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.events-block {
+  width: 80%;
+  overflow-y: auto;
+}
+
+.heading {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  padding-left: 20px;
+}
+
+.event-lists-container {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 0px;
+  margin-bottom: 30px;
+}

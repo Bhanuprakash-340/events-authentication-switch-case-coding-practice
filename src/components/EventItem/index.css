@@ -1,0 +1,34 @@
+.event-item {
+  margin-bottom: 20px;
+  width: 50%;
+  padding: 15px;
+}
+
+.event-image {
+  width: 100%;
+}
+
+.active {
+  border: 2px solid #2dd4bf;
+  border-radius: 10px;
+}
+
+.name {
+  font-size: 25px;
+  font-family: 'Roboto';
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.location {
+  font-size: 18px;
+  font-family: 'Roboto';
+}
+
+.event-button {
+  background-color: transparent;
+  padding: 0px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
